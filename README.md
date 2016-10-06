@@ -6,7 +6,7 @@
 <li>tournament.py contains methods for querying and updating the database
 <li>tournament_test.py has unit tests for tournament.py methods.
 </ul>
-PostgreSQL must be installed to execute these files. Once installed, run psql from the command line and enter the following to setup the database:
+Install PostgreSQL and its CLI to execute these files. Once installed, from the command line run psql and enter the following to setup the database:
 ```
 => \i tournament.sql
 => \q
